@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Shoppage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <script
+      src="https://kit.fontawesome.com/7dc508f75f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <script src="Shoppage.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="./home.html">Green Planet</a>
+      <div class="flex-header nav-bar">
+        <a href="./home.html">Home</a>
+        <a href="./Shoppage.html">Shop</a>
+        <a href="./about.html">About Us</a>
+        <a href="./contact.html">Contact Us</a>
+      </div>
+      <div class="flex-header">
+        <div class="search-container">
+          <input type="text" placeholder="Search..." />
+          <button type="button">Search</button>
+        </div>
+        <div class="cart-icon">
+          <a href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <div class="user-icon dropdown">
+          <a href="#"><i class="fas fa-user"></i></a>
+          <div class="dropdown-content">
+            <a class="dropdown-item" href="./login.html">Login</a>
+            <a class="dropdown-item" href="./create-account.html">Register</a>
+            <a class="dropdown-item" href="#">Logout</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="plants">
+        <h1>All Plants</h1>
+        <div class="sort">
+          <label for="sort">Sort by:</label>
+          <select id="sort">
+            <option value="low-to-high">low to high</option>
+            <option value="price">Price</option>
+          </select>
+        </div>
+        <div class="plants-grid" id="plants">
+          <!-- First Row -->
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+          <!-- Second Row -->
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+          <!-- Third Row -->
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+          <div class="plant">
+            <img src="./img/hoa1.jpg" alt="Agave Victoria Regina Porcupine" />
+            <p>Agave 'Victoria Regina Porcupine'</p>
+            <p class="price">$32.00</p>
+          </div>
+        </div>
+        <div class="more-section">
+          <button id="moreBtn">More</button>
+          <div id="moreContent" class="hidden-content">
+            <p>
+              Here is some additional information about the plants and other
+              items you can explore in our shop!
+            </p>
+            <p>
+              We offer a wide range of exotic plants, succulents, and home
+              decorations.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <ul>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Returns</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Shipping</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+  <p
+    style="
+      text-align: center;
+      background-color: #4caf50;
+      font-size: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    "
+  >
+    &copy; COPYRIGHT GREEN THUMB. ALL RIGHTS RESERVED
+  </p>
+</html>
+<script src="./js/shoppage.js"></script>
+<script src="./js/common.js"></script>

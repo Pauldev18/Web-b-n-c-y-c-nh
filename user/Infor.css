@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.top-bar {
+  background-color: #4caf50;
+  height: 50px;
+}
+.menu {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 0;
+  font-size: 20px;
+}
+.menu a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+.menu a:hover {
+  background-color: #f1f1f1;
+}
+.menu i:hover {
+  background-color: #f1f1f1;
+}
+.container {
+  max-width: 800px;
+  min-height: 740px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-section {
+  margin-bottom: 40px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+.price {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.pet-safe {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.quantity {
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: darkgreen;
+}
+
+.suggestions-section h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.suggestions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestion-item {
+  text-align: center;
+}
+
+.suggestion-item img {
+  width: 100px;
+  height: auto;
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.signup-form input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: darkgreen;
+}
+
+.privacy-text {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
+@media (max-width: 768px) {
+  .plants-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+footer {
+  background-color: #fff;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer .social-media a {
+  margin: 0 5px;
+}
+
+footer .social-media img {
+  width: 24px;
+  height: 24px;
+}
+.more-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#moreBtn {
+  background-color: #3d6b43;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#moreBtn:hover {
+  background-color: #2b4d31;
+}
+
+.hidden-content {
+  display: none;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 360px;
+}
+.search-container input[type="text"] {
+  padding: 6px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+.search-container button {
+  padding: 6px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #ddd;
+  cursor: pointer;
+  margin-left: 20px;
+  width: fit-content;
+}
+.search-container button:hover {
+  background-color: #ccc;
+}
+.flex-header {
+  display: flex;
+  align-items: center;
+}
+.nav-bar {
+  margin-left: 18rem;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 9;
+  right: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item {
+  font-size: small;
+  padding: 9px 20px !important;
+}

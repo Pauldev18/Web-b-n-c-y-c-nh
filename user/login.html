@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Green Planet Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <a href="./home.html">Green Planet</a>
+      <div class="flex-header nav-bar">
+        <a href="./home.html">Home</a>
+        <a href="./Shoppage.html">Shop</a>
+        <a href="./about.html">About Us</a>
+        <a href="./contact.html">Contact Us</a>
+      </div>
+      <div class="flex-header">
+        <div class="search-container">
+          <input type="text" placeholder="Search..." />
+          <button type="button">Search</button>
+        </div>
+        <div class="cart-icon">
+          <a href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <div class="user-icon dropdown">
+          <a href="#"><i class="fas fa-user"></i></a>
+          <div class="dropdown-content">
+            <a class="dropdown-item" href="./login.html">Login</a>
+            <a class="dropdown-item" href="./create-account.html">Register</a>
+            <a class="dropdown-item" href="#">Logout</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="login-section">
+        <h2>Green Planet Shop Login Page</h2>
+        <form>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+
+          <button type="submit" class="sign-in">Sign in</button>
+          <a href="#" class="create-account-btn">Create account</a>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <ul>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </footer>
+    <p
+      style="
+        text-align: center;
+        background-color: #4caf50;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      "
+    >
+      &copy; COPYRIGHT GREEN THUMB. ALL RIGHTS RESERVED
+    </p>
+  </body>
+</html>
